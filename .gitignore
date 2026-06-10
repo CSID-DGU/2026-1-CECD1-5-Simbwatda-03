@@ -1,0 +1,28 @@
+# === Large data / scene outputs (shared separately, too big for git) ===
+_run/example_input_scene/
+_testrun/
+
+# === Claude work artifacts ===
+.claude/
+
+# === Compiled extensions / build artifacts (rebuild per machine) ===
+**/build/
+*.so
+*.o
+*.egg-info/
+__pycache__/
+*.pyc
+
+# === Model weights (download via README wget) ===
+*.pth
+*.ckpt
+*.pt
+*.onnx
+
+# === misc ===
+*.log
+.DS_Store
+
+# build dist artifacts
+dist/
+*.egg
